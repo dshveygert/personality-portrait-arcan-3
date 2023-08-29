@@ -1,0 +1,51 @@
+
+.portrait-wrapper {
+  justify-content: center;
+}
+.portrait-wrapper .block {
+    justify-content: center
+}
+.block .item {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+.block .item.head {
+  display: flex;
+  margin-bottom: 32px;
+}
+.block .item.head .ear {
+  margin-top: 40px;
+}
+.block .item.head .face {
+  margin: 120px 6px 0;
+}
+.block .item.head .face__top {
+  margin-top: 0;
+}
+.block.body {
+  display: flex;
+  justify-content: center;
+}
+.block.body .abdomen__bottom {
+  margin-top: 115px;
+}
+
+
+/*.block.body .hand .arcane*/
+/*        */
+/*          margin-bottom: 16px*/
+
+/*      &__bottom*/
+/*        justify-content: center*/
+/*        margin-bottom: 16px*/
+
+/*    &.legs*/
+/*      .item*/
+/*        &-wrapper*/
+/*          display: flex*/
+/*          justify-content: center*/
+/*          margin-bottom: 16px*/
+
+/*          .arcane*/
+/*            margin-left: 6px*/
+/*            margin-right: 6px*/
